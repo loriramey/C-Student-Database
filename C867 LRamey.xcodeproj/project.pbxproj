@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A0A7E241295617AB00D9FCE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0A7E240295617AB00D9FCE8 /* main.cpp */; };
+		A0A7E24C2956185400D9FCE8 /* roster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0A7E24A2956185400D9FCE8 /* roster.cpp */; };
+		A0A7E24F2956186000D9FCE8 /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0A7E24D2956186000D9FCE8 /* student.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		A0A7E23D295617AB00D9FCE8 /* C867 LRamey */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C867 LRamey"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A7E240295617AB00D9FCE8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A0A7E2482956184600D9FCE8 /* degree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = degree.h; sourceTree = "<group>"; };
+		A0A7E24A2956185400D9FCE8 /* roster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roster.cpp; sourceTree = "<group>"; };
+		A0A7E24B2956185400D9FCE8 /* roster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roster.h; sourceTree = "<group>"; };
+		A0A7E24D2956186000D9FCE8 /* student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		A0A7E24E2956186000D9FCE8 /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				A0A7E240295617AB00D9FCE8 /* main.cpp */,
+				A0A7E2482956184600D9FCE8 /* degree.h */,
+				A0A7E24B2956185400D9FCE8 /* roster.h */,
+				A0A7E24A2956185400D9FCE8 /* roster.cpp */,
+				A0A7E24E2956186000D9FCE8 /* student.h */,
+				A0A7E24D2956186000D9FCE8 /* student.cpp */,
 			);
 			path = "C867 LRamey";
 			sourceTree = "<group>";
@@ -120,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A7E241295617AB00D9FCE8 /* main.cpp in Sources */,
+				A0A7E24C2956185400D9FCE8 /* roster.cpp in Sources */,
+				A0A7E24F2956186000D9FCE8 /* student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
